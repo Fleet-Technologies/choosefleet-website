@@ -19,16 +19,12 @@ export const links: LinksFunction = () => [
   {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Overpass&family=Rubik:wght@400;500;700&display=swap"
-  },
-  {
-    rel: "stylesheet",
-    href: "link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css"
   }
 ];
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Choose Fleet: Sign up for Pre-launch Updates | Fleet Technologies",
   viewport: "width=device-width,initial-scale=1",
 });
 
