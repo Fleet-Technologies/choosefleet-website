@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/01cbbc93-21bd-46a3-818b-8767ef2eec15/deploy-status)](https://app.netlify.com/sites/extraordinary-praline-bb50bb/deploys)
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
