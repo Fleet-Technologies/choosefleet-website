@@ -1,5 +1,4 @@
 import type { LinksFunction, MetaFunction } from "@remix-run/node";
-
 import {
   Links,
   LiveReload,
@@ -21,14 +20,15 @@ export const links: LinksFunction = () => [
     href: "https://fonts.googleapis.com/css2?family=Overpass&family=Rubik:wght@400;500;700&display=swap"
   },
   {
-    rel: "stylesheet",
-    href: "link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css"
-  }
+    rel: "icon",
+    type: "image/svg+xml",
+    href: 'favicon.svg'
+  },
 ];
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Fleet Tech",
   viewport: "width=device-width,initial-scale=1",
 });
 
@@ -45,6 +45,7 @@ export default function App() {
         <Scripts />
         <LiveReload />
       </body>
+
     </html>
   );
 }
