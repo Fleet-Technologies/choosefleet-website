@@ -4,7 +4,6 @@ import Navbar from "~/components/Navbar";
 
 export default function Index() {
   const [email, setEmail] = useState('');
-
   function handleEmailChange(value: SetStateAction<string>) {
     setEmail(value);
   }
