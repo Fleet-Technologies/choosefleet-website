@@ -1,6 +1,6 @@
 import type { SetStateAction } from "react";
 import { useState } from "react";
-import Navbar from "~/components/Navbar";
+import Navbar from "~/components/navbar";
 
 export default function Index() {
   const [email, setEmail] = useState('');
